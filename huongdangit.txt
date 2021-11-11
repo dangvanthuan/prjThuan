@@ -1,0 +1,4 @@
+Dùng Github:
+Step 1: T?o Repository ?? l?u code
+CMD: git init
+
