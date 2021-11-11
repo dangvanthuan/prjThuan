@@ -1,4 +1,12 @@
 Dùng Github:
 Step 1: T?o Repository ?? l?u code
-CMD: git init
+- CMD: git init
+step 2: xem tr?ng thái c?a Repository
+- CMD: git status
+step 3: T?o nhánh m?i có tên develop
+- CMD: git checkout  -b
+step 4: ??a m?t file lên môi tr??ng github:
+- CMD: git add <tên file> // ??a m?t file c? th? lên môi tr??ng github
+- CMD: git add . //??a t?t c? các file lên môi tr??ng github
+- CMD: git conmit // xác nh?n file lên môi tr??ng github
 

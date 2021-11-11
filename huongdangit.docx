@@ -1,0 +1,43 @@
+Dùng Github:
+Step 1: T?o Repository ?? l?u code
+- CMD: git init
+step 2: xem tr?ng thái c?a Repository
+- CMD: git status
+step 3: T?o nhánh m?i có tên develop
+- CMD: git checkout  -b
+step 4: ??a m?t file lên môi tr??ng github:
+- CMD: git add <tên file> // ??a m?t file c? th? lên môi tr??ng github
+- CMD: git add . //??a t?t c? các file lên môi tr??ng github
+- CMD: git conmit // xác nh?n file lên môi tr??ng github nh? close các file
+step 5: Ðua lên online github:
+- CMD: git remote add dautien git@github.com:dangvanthuan/demoLTHDT_HK1.git
+step 6: xem k?t qu?:
+- CMD: git remote -v
+$ git remote -v
+dautien git@github.com:dangvanthuan/demoLTHDT_HK1.git (fetch)
+dautien git@github.com:dangvanthuan/demoLTHDT_HK1.git (push)
+k?t thúc:
+$ git push dautien
+The authenticity of host 'github.com (20.205.243.166)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (RSA) to the list of known hosts.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 336 bytes | 112.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/dangvanthuan/demoLTHDT_HK1/pull/new/develop
+remote:
+To github.com:dangvanthuan/demoLTHDT_HK1.git
+ * [new branch]      develop -> develop
+
+step 7: T?o nhánh cho repository:
+- CMD: git checkout -b <tên nhánh> ho?c nhánh con theo <nhanh1/nhanh2>
+- CMD: git checkout 
+
